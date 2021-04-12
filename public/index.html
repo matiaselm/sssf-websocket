@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket test chat</title>
+</head>
+
+<body>
+    <form>
+        message: <input type="text" name="m" id="m" placeholder="Type message here" value="">
+        <input type="submit" value="Submit">
+    </form>
+
+    <ul id='messages' style="list-style: none;">
+
+    </ul>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+
+</html>
